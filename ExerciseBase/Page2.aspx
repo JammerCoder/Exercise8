@@ -14,11 +14,13 @@
                     <td align="left">                        
                         <asp:Label ID="lblPassOnValue" runat="server" Text="" />
                     </td>
-                    <td align="left">                                                
+                    <td align="left">      
+                        <asp:Label ID="lblGlobalID" runat="server" Text="" />                    
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" align="center">                        
+                    <td colspan="2" align="center">    
+                        <asp:Label ID="lblCacheVal" runat="server" Text="" />
                     </td>
                 </tr>
         </table>             
