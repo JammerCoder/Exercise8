@@ -13,9 +13,6 @@ namespace ExerciseBase
         {
             try
             {
-                Global.WorldID = 23456;
-                Cache["TeamName"] = "ChicagoCubs";
-
                 this.hypPage2.NavigateUrl = "~/Page2.aspx?ID=65";
                 this.hypPage3.NavigateUrl = "~/Page3.aspx";
             }

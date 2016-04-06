@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Global.asax" />
     <Content Include="Page2.aspx" />
     <Content Include="Page3.aspx" />
     <Content Include="Web.config" />
@@ -73,9 +72,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Page2.aspx.cs">
       <DependentUpon>Page2.aspx</DependentUpon>

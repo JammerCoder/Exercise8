@@ -11,11 +11,6 @@ namespace ExerciseBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Write(Global.WorldID.ToString());
-            decimal dGID = Global.WorldID / 2;
-            this.lblGlobalID.Text = "<b><i>" + dGID.ToString() + "</i></b>" ;
-            this.lblCacheVal.Text = Cache["TeamName"].ToString();
-
             //this.lblPassOnValue.Text = Request.QueryString["ID"];
             int iPassOnValue = Convert.ToInt32(Request.QueryString["ID"].ToString()) * 2;
             this.lblPassOnValue.Text = iPassOnValue.ToString();
