@@ -10,7 +10,7 @@
 namespace ExerciseBase {
     
     
-    public partial class Default {
+    public partial class Page3 {
         
         /// <summary>
         /// form1 control.
@@ -22,21 +22,30 @@ namespace ExerciseBase {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// hypPage2 control.
+        /// lblBookList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hypPage2;
+        protected global::System.Web.UI.WebControls.Label lblBookList;
         
         /// <summary>
-        /// hypPage3 control.
+        /// dgBookInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hypPage3;
+        protected global::System.Web.UI.WebControls.DataGrid dgBookInfo;
+        
+        /// <summary>
+        /// lblErrorMessage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblErrorMessage;
     }
 }
